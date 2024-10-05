@@ -1,0 +1,6 @@
+[submodule "Lagrange.Core"]
+	path = Lagrange.Core
+	url = https://github.com/LagrangeDev/Lagrange.Core.git
+[submodule "AliceBot.Core"]
+	path = AliceBot.Core
+	url = https://github.com/DarkRRb/AliceBot.Core.git

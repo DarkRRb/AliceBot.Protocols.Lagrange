@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\AliceBot.Core\AliceBot.Core\AliceBot.Core.csproj">
+            <Private>false</Private>
+            <ExcludeAssets>runtime</ExcludeAssets>
+        </ProjectReference>
+        <ProjectReference Include="..\Lagrange.Core\Lagrange.Core\Lagrange.Core.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="QRCoder" Version="1.6.0" />
+    </ItemGroup>
+</Project>
